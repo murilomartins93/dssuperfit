@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+:root { 
+    --bg-white: #fff;
+    --bg-lightgray: #ccc;
+    --bg-black:#000;
+    --bg-red: #F03C42;
+    --bg-blue: #222374;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body, html {
+    height: 100%;
+}
+
+a, a:hover {
+    text-decoration: none;
+    color: var(--bg-white);
+    font-size: 14px;
+}
+
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px; /*Added for more pleasant feel*/
+}
+
+header {
+    background-color: var(--bg-red);
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav h1 {
+    color: var(--bg-white);
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+.follow {
+    display: flex;
+    align-items: center;    /** ALINHAR IMAGEMMMMMM E ESPAÇAMENTO*/
+}
+
+.follow img {
+    margin-right: 10px;
+}
+
+main {
+    min-height: calc(100vh - 262px - 100px);
+}
+
+#our-space {
+    background-color: var(--bg-blue);
+    padding: 20px 0;
+}
+
+#our-space h2 {
+    color: var(--bg-white);
+    margin-bottom: 40px;
+}
+
+.our-space-card {
+    color: var(--bg-black);
+    background-color: var(--bg-lightgray);  
+    padding: 20px; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#activities {
+    background-color: var(--bg-white);
+}
+
+#activities h2 {
+    color: var(--bg-red);
+    margin-bottom: 40px;
+}
+
+.activities-card {
+    color: var(--bg-lightgray);
+    background-color: var(--bg-blue);  
+    padding: 20px; 
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: var(--bg-black);
+    height: 262px;
+    display: flex;
+    align-items: center;
+}
+
+.footer-description {
+    color: var(--bg-white);
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social {
+    margin-bottom: 30px;  
+}
+
+.align-social {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.align-social img {
+    margin-right: 10px;
+}
