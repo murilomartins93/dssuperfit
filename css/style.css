@@ -29,7 +29,7 @@ a, a:hover {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
-    padding: 20px; /*Added for more pleasant feel*/
+    padding: 20px; 
 }
 
 header {
@@ -53,7 +53,7 @@ nav h1 {
 
 .follow {
     display: flex;
-    align-items: center;    /** ALINHAR IMAGEMMMMMM E ESPAÇAMENTO*/
+    align-items: center;   
 }
 
 .follow img {
@@ -92,11 +92,18 @@ main {
 }
 
 .activities-card {
-    color: var(--bg-lightgray);
     background-color: var(--bg-blue);  
     padding: 20px; 
     margin-bottom: 20px;
     border-radius: 8px;
+}
+
+.activities-card h3 {
+    color: var(--bg-white);
+}
+
+.activities-card p {
+    color: var(--bg-lightgray);
 }
 
 footer {
